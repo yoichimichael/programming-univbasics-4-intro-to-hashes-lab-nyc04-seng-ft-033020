@@ -21,7 +21,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  # return the correct value using the hash and key parameters
+  if hash[key]
+    return hash
 end
 
 def update_counting_hash(hash, key)
