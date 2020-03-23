@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  
+  { shape: "round", color: "purple", quantity: 3 }
 end
 
 def pioneer
